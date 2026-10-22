@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>共創還元（COCRETURN）</title>
+<meta name="description" content="共創還元は、個人間売買（フリマ）サービスを準備している個人事業です。事業の説明・お問い合わせ・特定商取引法に基づく表記。">
+<style>
+  :root { --bg:#fbfaf7; --fg:#22252a; --sub:#5d636c; --line:#e3e0d8; --accent:#2f6f5e; --card:#ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#16181b; --fg:#e8e6e1; --sub:#a3a7ad; --line:#2e3237; --accent:#7cc4ad; --card:#1d2024; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:system-ui,-apple-system,"Hiragino Sans","Yu Gothic UI",sans-serif; line-height:1.8; }
+  .wrap { max-width:720px; margin:0 auto; padding:40px 16px 64px; }
+  header { border-bottom:1px solid var(--line); padding-bottom:24px; margin-bottom:32px; }
+  .brand { font-size:28px; font-weight:700; letter-spacing:.04em; margin:0; }
+  .en { color:var(--sub); font-size:14px; letter-spacing:.12em; margin:4px 0 0; }
+  nav { margin-top:16px; font-size:14px; display:flex; gap:16px; flex-wrap:wrap; }
+  nav a { color:var(--accent); text-decoration:none; }
+  h2 { font-size:20px; margin:40px 0 12px; padding-left:10px; border-left:4px solid var(--accent); }
+  p { margin:0 0 12px; }
+  .note { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:12px 16px; font-size:15px; }
+  table { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--line); border-radius:8px; overflow:hidden; font-size:15px; }
+  th, td { text-align:left; vertical-align:top; padding:12px 14px; border-bottom:1px solid var(--line); }
+  tr:last-child th, tr:last-child td { border-bottom:none; }
+  th { width:34%; color:var(--sub); font-weight:600; }
+  a { color:var(--accent); word-break:break-all; }
+  footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--line); color:var(--sub); font-size:13px; }
+  @media (max-width:520px) { th, td { display:block; width:100%; } th { padding-bottom:0; border-bottom:none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="brand">共創還元</p>
+    <p class="en">COCRETURN</p>
+    <nav><a href="#about">事業について</a><a href="#service">準備中のサービス</a><a href="#contact">お問い合わせ</a><a href="#tokushoho">特定商取引法に基づく表記</a></nav>
+  </header>
+
+  <section id="about">
+    <h2>事業について</h2>
+    <p>共創還元（COCRETURN）は、使う人と一緒にサービスを育て、手数料を低く抑えることで使う人に還元することを目指す個人事業です。</p>
+  </section>
+
+  <section id="service">
+    <h2>準備中のサービス</h2>
+    <p>個人どうしが、中古品などを固定価格で売り買いできる Web のフリマサービスを準備しています（オークションはありません）。</p>
+    <p>売り手は出品して、売れたときにだけ販売手数料を支払います。手数料の額は、開設時に出品画面と利用規約で表示します。</p>
+    <p>代金の決済と売り手への入金は、決済サービスの Stripe（Stripe Connect）が行う予定です。当方は代金を預かりません。販売手数料は、その決済から差し引かれます。</p>
+    <p>偽物・盗品・法令で売買が禁じられている品物、そのほか利用規約で定める禁止品は出品できません。</p>
+    <p class="note">現在は開設の準備中です（2026年10月23日 更新）。サービスの申し込みや支払いは、まだ受け付けていません。開設の時期は、このページでお知らせします。</p>
+  </section>
+
+  <section id="contact">
+    <h2>お問い合わせ</h2>
+    <p>メールでお受けしています。内容を確認のうえ、原則3営業日以内にお返事します。</p>
+    <p>メールアドレス：<a href="mailto:endeavor0007@gmail.com">endeavor0007@gmail.com</a></p>
+  </section>
+
+  <section id="tokushoho">
+    <h2>特定商取引法に基づく表記</h2>
+    <table>
+      <tr><th>事業者の名称</th><td>大沼亮太（屋号：共創還元）</td></tr>
+      <tr><th>運営責任者</th><td>大沼亮太</td></tr>
+      <tr><th>所在地</th><td>下記のメールアドレスへご請求いただければ、遅滞なく開示いたします。</td></tr>
+      <tr><th>電話番号</th><td>下記のメールアドレスへご請求いただければ、遅滞なく開示いたします。</td></tr>
+      <tr><th>メールアドレス</th><td>endeavor0007@gmail.com</td></tr>
+      <tr><th>サービス利用料（販売手数料）</th><td>売り手が、商品が売れたときに、売れた価格に応じた販売手数料をお支払いいただきます。手数料の額（税込）は、開設時に出品画面と利用規約に表示します。</td></tr>
+      <tr><th>商品代金以外の必要料金</th><td>インターネット接続にかかる通信料は、お客様のご負担です。商品の送料は、出品ページに表示します。</td></tr>
+      <tr><th>お支払い方法</th><td>クレジットカードほか、決済画面（Stripe）に表示される方法</td></tr>
+      <tr><th>お支払い時期</th><td>買い手：購入の手続きの時。売り手の販売手数料：取引が完了したときに、Stripe の決済から差し引かれます（当方は代金を預かりません）。</td></tr>
+      <tr><th>サービスの提供時期</th><td>開設の準備中です。開設後は、会員登録が完了した時点からご利用いただけます。</td></tr>
+      <tr><th>返品・キャンセル</th><td>販売手数料は、取引が完了した後は返金いたしません。取引が取り消された場合、その取引の販売手数料はいただきません。商品そのものの返品の条件は、開設時に利用規約で定めます。</td></tr>
+      <tr><th>動作環境</th><td>最新版の Chrome・Safari・Edge・Firefox（スマートフォン・パソコン）</td></tr>
+    </table>
+  </section>
+
+  <footer>© 共創還元（COCRETURN）</footer>
+</div>
+</body>
+</html>
